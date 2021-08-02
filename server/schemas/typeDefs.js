@@ -19,7 +19,7 @@ const typeDefs = gql`
         title: String!
     }
 
-    input SavedBooks {
+    input SavedBook {
         description: String
         title: String
         bookId: String
